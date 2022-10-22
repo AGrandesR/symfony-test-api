@@ -2,8 +2,9 @@
 This is a simple test to use Symfony routes and create a little parser of an external API that use timestamp in the request to a more familiar date type (YYYY-MM-DD).
 
 ## Run server
-To start the server the easy way is with PHP bash command.
+To start the server the easy way is with the next bash commands in the root of the project.
 ```
+composer install
 cd public
 php -S localhost:8000
 ```
