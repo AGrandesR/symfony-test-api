@@ -51,6 +51,6 @@ class ApiController
         //https://lindevs.com/methods-to-return-object-as-json-response-in-symfony/)
     }
     private function checkdate($date) : bool {
-        return preg_match('/^[0-9]{4}-[0-1][0-9]-[0-3][0-9]$/', $date ) ? true : false;
+        return preg_match('/^[0-9]{4}-(0[0-9]|1[0-2])-([0-2][0-9]|3[01])$/', $date ) ? true : false;
     }
 }
